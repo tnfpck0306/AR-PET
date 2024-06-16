@@ -185,6 +185,7 @@ GameObject:
   - component: {fileID: 276809330}
   - component: {fileID: 276809329}
   - component: {fileID: 276809328}
+  - component: {fileID: 276809333}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -400,6 +401,20 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &276809333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276809326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f19ce71f6f0d342bff9caa16771cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ball: {fileID: 5382055114467821825, guid: c8fb7865085711b449711fb7c7ea9487, type: 3}
+  throwPower: {x: 0, y: 3, z: 2}
 --- !u!1 &552888709
 GameObject:
   m_ObjectHideFlags: 0
